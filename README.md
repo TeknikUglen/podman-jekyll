@@ -1,6 +1,12 @@
 # Jekyll in a Container
 
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue)](https://opensource.org/licenses/isc)
+[![Podman](https://img.shields.io/badge/Podman-grey?logo=podman&logoColor=ffffff)](https://github.com/containers/podman)
+[![Jekyll](https://img.shields.io/badge/Static%20Site%20Builder-Jekyll-green)](https://jekyllrb.com/)
+
 This repository holds the means to build a simple container for creating jekyll static site content.
+
+Source files are placed in the `src` folder. Please follow on the instructions on the official Jekyll website to create a new Jekyll site.
 
 ## Scripts
 
@@ -30,5 +36,3 @@ Note. The container should be running for this to work!
 ```sh
 podman exec -it jekyll bundle exec jekyll build --destination _site-build
 ```
-
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/isc)
