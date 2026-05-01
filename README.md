@@ -1,5 +1,8 @@
 # Jekyll in a Container
 
+> [!Warning]
+> Moved to codeberg [https://codeberg.org/TeknikUglen/podman-jekyll](https://codeberg.org/TeknikUglen/podman-jekyll)
+
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue)](https://opensource.org/licenses/isc)
 [![Podman](https://img.shields.io/badge/Podman-grey?logo=podman&logoColor=ffffff)](https://github.com/containers/podman)
 [![Jekyll](https://img.shields.io/badge/Static%20Site%20Builder-Jekyll-green)](https://jekyllrb.com/)
